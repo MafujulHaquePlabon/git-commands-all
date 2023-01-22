@@ -1,5 +1,5 @@
 # git-commands-all
-
+![Git-Commands-Cheat-Sheet](https://user-images.githubusercontent.com/96911414/213901902-4b48c1d6-69e6-4a28-b913-a7b21dc89183.png)
 ### Getting & Creating Projects
 
 | Command | Description |
@@ -36,3 +36,12 @@
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
+
+### Inspection & Comparison
+
+| Command | Description |
+| ------- | ----------- |
+| `git log` | View changes |
+| `git log --summary` | View changes (detailed) |
+| `git log --oneline` | View changes (briefly) |
+| `git diff [source branch] [target branch]` | Preview changes before merging |
