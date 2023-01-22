@@ -49,4 +49,11 @@
 | `git pull origin [branch name]` | রিমোট রেপো থেকে পরিবর্তনগুলি পুল করুন |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | রিমোট রেপো এড করুন |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | রেপোর অরিজিন ব্রাঞ্চে SSH এ সেট করুন |
+### পর্যালোচনা এবং তুলনা
 
+| কমান্ড | বর্ণনা |
+| ------- | ----------- |
+| `git log` | পরিবর্তনগুলি দেখুন|
+| `git log --summary` | পরিবর্তন দেখুন (বিস্তারিত) |
+| `git log --oneline` | পরিবর্তনগুলি দেখুন (সংক্ষেপে)|
+| `git diff [source branch] [target branch]` | মার্জ করার আগে চেঞ্জগুলির প্রিভিউ দেখুন |
