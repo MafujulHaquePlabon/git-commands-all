@@ -1,4 +1,5 @@
 # git-commands-all
+## অনুবাদিত সংস্করণ
 - [English version (original)](README.md)
 - ![Git-Commands-Cheat-Sheet](https://user-images.githubusercontent.com/96911414/213902998-c00aa10a-ecf8-4fb8-ba0f-fad01b0920bf.png)
 
@@ -17,4 +18,23 @@
 | `git add -A` | স্টেজিং এলাকায় সমস্ত নতুন এবং পরিবর্তিত ফাইল এড করুন |
 | `git commit -m "[commit message]"` | পরিবর্তনগুলোর কমিট (ব্যাখ্যা) করুন  |
 | `git rm -r [file-name.txt]` | ফাইল (বা ডিরেক্টরি) ডিলেট করুন |
+### ব্রাঞ্চিং এবং মার্জিং
+
+| কমান্ড | বর্ণনা |
+| ------- | ----------- |
+| `git branch` | ব্রাঞ্চের তালিকা (তারকা চিহ্ন বর্তমান ব্রাঞ্চ নির্দেশ করে) |
+| `git branch -a` | সকল ব্রাঞ্চের তালিকা (লোকাল এবং রিমোট উভয়ই একত্রে) |
+| `git branch [branch name]` | নতুন ব্রাঞ্চ তৈরি করুন |
+| `git branch -d [branch name]` | ব্রাঞ্চ ডিলিট করুন  |
+| `git push origin --delete [branch name]` | রিমোট ব্রাঞ্চ ডিলিট করুন |
+| `git checkout -b [branch name]` | একটি নতুন ব্রাঞ্চ তৈরি করুন এবং এতে স্যুইচ করুন |
+| `git checkout -b [branch name] origin/[branch name]` | রিমোট ব্রাঞ্চ ক্লোন করুন এবং এটিতে স্যুইচ করুন |
+| `git branch -m [old branch name] [new branch name]` | লোকাল ব্রাঞ্চের নাম পরিবর্তন করুন |
+| `git checkout [branch name]` | স্পেসিফিক ব্রাঞ্চে স্যুইচ করুন |
+| `git checkout -` | সর্বশেষ চেক করা ব্রাঞ্চে স্যুইচ করুন |
+| `git checkout -- [file-name.txt]` | স্পেসিফিক ফাইলের পরিবর্তন মুছে ফেলুন |
+| `git merge [branch name]` | একটিভ ব্রাঞ্চের সাথে আরেকটি ব্রাঞ্চ মার্জ করুন |
+| `git merge [source branch] [target branch]` | টার্গেট ব্রাঞ্চের সাথে স্পেসিফিক ব্রাঞ্চ একত্রিত করুন |
+| `git stash` | অসমাপ্ত কাজের ডিরেক্টরিতে পরিবর্তনগুলি সংরক্ষণ করুন |
+| `git stash clear` | স্ট্যাশ এন্টিগুলো সরিয়ে ফেলুন |
 
