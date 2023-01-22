@@ -37,4 +37,16 @@
 | `git merge [source branch] [target branch]` | টার্গেট ব্রাঞ্চের সাথে স্পেসিফিক ব্রাঞ্চ একত্রিত করুন |
 | `git stash` | অসমাপ্ত কাজের ডিরেক্টরিতে পরিবর্তনগুলি সংরক্ষণ করুন |
 | `git stash clear` | স্ট্যাশ এন্টিগুলো সরিয়ে ফেলুন |
+### শেয়ারিং এবং আপডেটিং প্রোজেক্টগুলো
+
+| কমান্ড | বর্ণনা |
+| ------- | ----------- |
+| `git push origin [branch name]` | রিমোট রেপোতে ব্রাঞ্চ পুশ করুন  |
+| `git push -u origin [branch name]` | রিমোট রেপোতে পরিবর্তনগুলি পুশ করুন (এবং ব্রাঞ্চটি মনে রাখুন) |
+| `git push` | রিমোট রিপোজিটরিতে পরিবর্তনগুলি পুশ করুন (যে শাখাটি ইতিমধ্যে মনে রাখা হয়েছে) |
+| `git push origin --delete [branch name]` | রিমোট ব্রাঞ্চ ডিলিট করুন |
+| `git pull` | সর্বশেষ কমিট দ্বারা স্থানীয় রেপো আপডেট করুন |
+| `git pull origin [branch name]` | রিমোট রেপো থেকে পরিবর্তনগুলি পুল করুন |
+| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | রিমোট রেপো এড করুন |
+| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | রেপোর অরিজিন ব্রাঞ্চে SSH এ সেট করুন |
 
